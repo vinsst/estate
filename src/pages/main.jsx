@@ -1,13 +1,12 @@
 import React from "react";
-
-import One from "../components/sections/One";
-import Two from "../components/sections/Two";
+import TopNavigation from "../components/TopNavigation";
+import Table from "../components/Table";
 
 function Main() {
   return (
     <main className="homeMain">
-      <One />
-      <Two />
+      <TopNavigation />
+      <Table />
     </main>
   );
 }
